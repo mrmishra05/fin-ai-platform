@@ -1,10 +1,3 @@
-// frontend/pages/index.tsx
-import AuthForm from "../components/AuthForm";
-
 export default function Home() {
-  return (
-    <div>
-      <AuthForm />
-    </div>
-  );
+  return <h1 className="text-3xl text-green-600">Hello from Next.js!</h1>;
 }
